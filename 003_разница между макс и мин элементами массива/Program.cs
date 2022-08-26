@@ -4,7 +4,7 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите массив: ");
+Console.WriteLine("Введите количество цифр в массиве: ");
 int size = Convert.ToInt32(Console.ReadLine());
 
 double[] numbers = new double [size];
