@@ -4,7 +4,7 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите массив: ");
+Console.WriteLine("Введите количество цифр в массиве: ");
 int size = Convert.ToInt32(Console.ReadLine());
 
 int[] numbers = new int[size];
@@ -27,6 +27,8 @@ for (int i = 0; i < numbers.Length; i++)
 
 Console.WriteLine($"- количество чётных чисел в массиве: {count}");
 
+
+// методы *******************************************************************************
 void FillArray(int[] numbers)
 {
     for (int i = 0; i < numbers.Length; i++)
